@@ -18,16 +18,32 @@ A high-performance **Laravel** e-commerce simulator demonstrating advanced prici
 
 1. **Install Dependencies**:
    ```bash
-   composer install && npm install
+   composer install
+   npm install
    ```
+
+   ```bash
+   npm install
+   ```
+   
 2. **Environment**:
    ```bash
-   cp .env.example .env && php artisan key:generate
+   cp .env.example .env
    ```
+
+    ```bash
+   php artisan key:generate
+   ```
+    
 3. **Database**: Create `smart_coupon` in MySQL and update `.env`. Then run:
    ```bash
-   php artisan migrate:fresh --seed && npm run build
+   php artisan migrate:fresh --seed
    ```
+
+   ```bash
+   npm run build
+   ```
+   
 4. **Launch**:
    ```bash
    php artisan serve
