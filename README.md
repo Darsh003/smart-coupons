@@ -19,7 +19,6 @@ A high-performance **Laravel** e-commerce simulator demonstrating advanced prici
 1. **Install Dependencies**:
    ```bash
    composer install
-   npm install
    ```
 
    ```bash
