@@ -1185,7 +1185,6 @@ textarea {
     height: 72px;
     border-radius: var(--radius-md);
     overflow: hidden;
-    background: #F1F5F9;
     flex-shrink: 0;
 }
 
